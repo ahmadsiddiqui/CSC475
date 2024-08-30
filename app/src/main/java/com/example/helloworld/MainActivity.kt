@@ -22,9 +22,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        Toast.makeText(this, "Can you see me?", Toast.LENGTH_SHORT).show()
-        Log.i("info", "Done Creating the app")
     }
 
     fun add(v: View){
