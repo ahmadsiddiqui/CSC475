@@ -17,26 +17,17 @@ class DialogShowNote: DialogFragment() {
         val dialogView = inflater.inflate(R.layout.dialog_show_note, null)
         val txtTitle = dialogView.findViewById<TextView>(R.id.txtTitle)
         val txtDescription = dialogView.findViewById<TextView>(R.id.txtDescription)
-        val txtImportant = dialogView.findViewById<TextView>(R.id.textViewImportant)
-        val txtTodo = dialogView.findViewById<TextView>(R.id.textViewTodo)
-        val txtIdea = dialogView.findViewById<TextView>(R.id.textViewIdea)
         txtTitle.text = note!!.title
         txtDescription.text = note!!.description
-        if(!note!!.important){
-            txtImportant.visibility = View.GONE
-
-        }
-        if(!note!!.todo){
-            txtTodo.visibility = View.GONE
-
-        }
-        if(!note!!.idea){
-            txtIdea.visibility = View.GONE
-
-        }
+        val btnDelete = dialogView.findViewById<Button>(R.id.btnDelete)
         val btnOK = dialogView.findViewById<Button>(R.id.btnOK)
-        builder.setView(dialogView).setMessage("Your note")
+        builder.setView(dialogView).setMessage("")
         btnOK.setOnClickListener{
+            dismiss()
+        }
+        btnDelete.setOnClickListener(){
+            val callingActivity = activity as MainActivity?
+            callingActivity!!.deleteNote(note!!)
             dismiss()
         }
 
@@ -44,6 +35,8 @@ class DialogShowNote: DialogFragment() {
     }
 
     fun sendNoteSelected(noteSelected:Note){
-        note= noteSelected
+        note = noteSelected
     }
+
+
 }

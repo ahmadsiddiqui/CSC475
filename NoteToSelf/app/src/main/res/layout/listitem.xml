@@ -6,23 +6,10 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textViewStatus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="@color/design_default_color_secondary"
-        android:textSize="24sp" />
-
-    <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textViewDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
 </LinearLayout>
