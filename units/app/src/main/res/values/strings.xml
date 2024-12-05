@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">units</string>
+    <string-array name="WeightUnits">
+        <item value="lbs" >Pounds</item>
+        <item value="kg" >Kilograms</item>
+        <item value="oz" >Ounces</item>
+        <item value="g" >grams</item>
+    </string-array>
+    <string-array name="LengthUnits">
+        <item value = "ft" >Feet</item>
+        <item value = "m">Meters</item>
+        <item value = "in" >Inches</item>
+        <item value = "cm" >Centimeters</item>
+    </string-array>
+    <string-array name="TemperatureUnits">
+        <item value="c" >Celsius</item>
+        <item value="f" >Fahrenheit</item>
+        <item value="k">Kelvin</item>
+    </string-array>
+
+</resources>

@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var photoAdapter: PhotoAdapter
     private var photoList: List<String> = ArrayList()
-    private var perms:String = Manifest.permission.READ_MEDIA_IMAGES
+    private var perms:String = "Manifest.permission.READ_MEDIA_IMAGES"
     private val PERMISSION_CODE = 100
 
 
