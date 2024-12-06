@@ -13,8 +13,8 @@ android {
         applicationId = "dev.asid.activitytracker"
         minSdk = 24
         targetSdk = 35
-        versionCode = 2
-        versionName = "1.01b"
+        versionCode = 3
+        versionName = "1.02b"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
