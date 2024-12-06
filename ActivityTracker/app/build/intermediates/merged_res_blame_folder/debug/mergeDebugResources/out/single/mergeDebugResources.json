@@ -44,6 +44,10 @@
         "source": "C:\\Users\\ahmad\\.gradle\\daemon\\8.9\\dev.asid.activitytracker.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "dev.asid.activitytracker.app-debug-4:/layout_dialog_show_exercise.xml.flat",
+        "source": "dev.asid.activitytracker.app-main-6:/layout/dialog_show_exercise.xml"
+    },
+    {
         "merged": "C:\\Users\\ahmad\\.gradle\\daemon\\8.9\\dev.asid.activitytracker.app-debug-4:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\ahmad\\.gradle\\daemon\\8.9\\dev.asid.activitytracker.app-main-6:\\xml\\backup_rules.xml"
     },
@@ -94,10 +98,6 @@
     {
         "merged": "C:\\Users\\ahmad\\.gradle\\daemon\\8.9\\dev.asid.activitytracker.app-debug-4:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\ahmad\\.gradle\\daemon\\8.9\\dev.asid.activitytracker.app-main-6:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "dev.asid.activitytracker.app-debug-4:/layout_dialog_new_exercise.xml.flat",
-        "source": "dev.asid.activitytracker.app-main-6:/layout/dialog_new_exercise.xml"
     },
     {
         "merged": "C:\\Users\\ahmad\\.gradle\\daemon\\8.9\\dev.asid.activitytracker.app-debug-4:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",

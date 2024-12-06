@@ -3272,6 +3272,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteBtn
 id deleteButton
 id deltaRelative
 id dependency_ordering
@@ -3364,6 +3365,7 @@ id image
 id immediateStop
 id included
 id incompleteWarning
+id incompleteWarning2
 id indeterminate
 id info
 id invisible
@@ -3583,6 +3585,7 @@ id supportScrollUp
 id tabMode
 id tableRow
 id tableRow2
+id tableRow3
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading

@@ -1,5 +1,6 @@
 package dev.asid.activitytracker
 
+import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +10,7 @@ import android.widget.LinearLayout
 import android.widget.TableRow
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
+
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -77,6 +79,14 @@ class MainActivity : AppCompatActivity() {
         buildExtraString()
         val btnGo : Button = findViewById(R.id.startWorkout)
         btnGo.setOnClickListener {
+            if(workout.size == 0){
+                val alert = AlertDialog.Builder(this)
+                    .setTitle("No Activities")
+                    .setMessage("Please add at least one activity to your workout.")
+                alert.setNeutralButton("OK", null)
+                alert.show()
+                return@setOnClickListener
+            }
             val intent = Intent(this, WorkoutActivity::class.java)
             intent.putExtra("workout", extraString)
             startActivity(intent)

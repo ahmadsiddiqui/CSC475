@@ -22,6 +22,7 @@ id createActivityButton
 id currentExerciseTitle
 id date
 id dateTextView
+id deleteBtn
 id deleteButton
 id distance_input
 id distance_input2
@@ -32,6 +33,7 @@ id exerciseTitle
 id exerciseType
 id goToMain
 id incompleteWarning
+id incompleteWarning2
 id linearLayout
 id main
 id radioGroup
@@ -45,6 +47,7 @@ id sets_label
 id startWorkout
 id tableRow
 id tableRow2
+id tableRow3
 id targetReps
 id targetSets
 id targetWeight
